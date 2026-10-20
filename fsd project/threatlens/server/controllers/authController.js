@@ -32,7 +32,16 @@ const register = async (req, res) => {
     if (err.code === 11000) {
       return res.status(400).json({ error: 'Email already registered.' });
     }
-    res.status(500).json({ error: 'Registration failed. Please try again.' });
+    if (err.name === 'MongooseError' || err.name === 'MongoServerSelectionError' || err.name === 'MongoNetworkError') {
+      return res.status(503).json({ 
+        error: 'Database connection failed. Please ensure MongoDB is running or MONGO_URI is set in Render.',
+        details: err.message
+      });
+    }
+    res.status(500).json({ 
+      error: 'Registration failed. Please try again.',
+      details: process.env.NODE_ENV === 'production' ? undefined : err.message
+    });
   }
 };
 
@@ -40,6 +49,10 @@ const register = async (req, res) => {
 const login = async (req, res) => {
   try {
     const { email, password } = req.body;
+
+    if (!email || !password) {
+      return res.status(400).json({ error: 'Please provide both email and password.' });
+    }
 
     const user = await User.findOne({ email: email.toLowerCase() }).select('+password');
     if (!user) {
@@ -77,7 +90,16 @@ const login = async (req, res) => {
     });
   } catch (err) {
     console.error('Login error:', err);
-    res.status(500).json({ error: 'Login failed. Please try again.' });
+    if (err.name === 'MongooseError' || err.name === 'MongoServerSelectionError' || err.name === 'MongoNetworkError') {
+      return res.status(503).json({ 
+        error: 'Database connection failed. Please ensure MongoDB is running or MONGO_URI is set in Render.',
+        details: err.message
+      });
+    }
+    res.status(500).json({ 
+      error: 'Login failed. Please try again.',
+      details: process.env.NODE_ENV === 'production' ? undefined : err.message
+    });
   }
 };
 

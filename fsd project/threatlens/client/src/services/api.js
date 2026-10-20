@@ -18,7 +18,7 @@ const api = axios.create({
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('threatlens_token');
-    if (token) {
+    if (token && token !== 'undefined' && token !== 'null' && token.trim() !== '') {
       config.headers.Authorization = `Bearer ${token}`;
     }
     return config;

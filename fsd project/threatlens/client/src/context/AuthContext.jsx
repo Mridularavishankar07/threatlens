@@ -9,10 +9,12 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     const token = localStorage.getItem('threatlens_token');
-    if (token) {
+    if (token && token !== 'undefined' && token !== 'null' && token.trim() !== '') {
       api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
       fetchMe();
     } else {
+      localStorage.removeItem('threatlens_token');
+      delete api.defaults.headers.common['Authorization'];
       setLoading(false);
     }
   }, []);

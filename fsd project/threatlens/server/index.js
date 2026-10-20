@@ -30,9 +30,11 @@ app.use(cors({
     // Allow non-browser requests (Postman, curl, server-to-server)
     if (!origin) return callback(null, true);
     
-    // Check exact match in allowed list or any .vercel.app domain
+    // Check exact match in allowed list or cloud hosting domains
     const isAllowed = allowedOrigins.includes(origin) || 
                       origin.endsWith('.vercel.app') || 
+                      origin.endsWith('.onrender.com') || 
+                      origin.endsWith('.netlify.app') || 
                       process.env.NODE_ENV !== 'production';
 
     if (isAllowed) {
@@ -85,7 +87,15 @@ app.use('/api/emails', emailRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', timestamp: new Date().toISOString(), version: '1.0.0' });
+  res.json({ 
+    status: 'ok', 
+    timestamp: new Date().toISOString(), 
+    version: '1.0.0',
+    auth: {
+      jwtMode: process.env.JWT_SECRET ? 'custom-env' : 'builtin-fallback',
+      ready: true
+    }
+  });
 });
 
 // 404 handler

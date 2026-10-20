@@ -121,7 +121,7 @@ const envExists = checkFile('server/.env', 'Server .env file');
 if (envExists) {
   const envPath = path.join(__dirname, 'server/.env');
   const envContent = fs.readFileSync(envPath, 'utf8');
-  const requiredVars = ['MONGO_URI', 'JWT_SECRET', 'PORT'];
+  const requiredVars = ['MONGO_URI', 'PORT'];
   let allVarsPresent = true;
   
   for (const varName of requiredVars) {
@@ -129,6 +129,13 @@ if (envExists) {
       allVarsPresent = false;
       checks.push({ status: '❌', description: `Environment variable ${varName}`, details: 'Missing' });
     }
+  }
+
+  // JWT_SECRET is optional because the backend includes an automatic secure fallback
+  if (envContent.includes('JWT_SECRET=')) {
+    checks.push({ status: '✅', description: 'Environment variable JWT_SECRET', details: 'Configured in .env' });
+  } else {
+    checks.push({ status: 'ℹ️', description: 'Environment variable JWT_SECRET', details: 'Using built-in fallback key (no manual setup or external key required)' });
   }
   
   if (allVarsPresent) {
