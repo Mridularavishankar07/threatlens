@@ -1,0 +1,30 @@
+{
+  "name": "threatlens",
+  "version": "1.0.0",
+  "description": "ThreatLens - AI-Powered Phishing Detection Platform",
+  "private": true,
+  "scripts": {
+    "diagnose": "node diagnose.js",
+    "test-auth": "cd server && node test-auth.js",
+    "test:api": "cd server && node test-e2e-api.js",
+    "seed": "cd server && npm run seed",
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run dev"
+  },
+  "keywords": [
+    "phishing-detection",
+    "email-security",
+    "cybersecurity",
+    "threat-detection"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}

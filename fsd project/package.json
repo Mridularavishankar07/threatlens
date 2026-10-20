@@ -1,0 +1,18 @@
+{
+  "name": "fsd-project-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FSD Project workspace proxy for ThreatLens",
+  "scripts": {
+    "dev": "npm run dev --prefix threatlens",
+    "dev:server": "npm run dev:server --prefix threatlens",
+    "dev:client": "npm run dev:client --prefix threatlens",
+    "start": "npm run dev --prefix threatlens",
+    "diagnose": "npm run diagnose --prefix threatlens",
+    "test-auth": "npm run test-auth --prefix threatlens",
+    "test:api": "npm run test:api --prefix threatlens",
+    "seed": "npm run seed --prefix threatlens",
+    "install-all": "npm run install-all --prefix threatlens",
+    "install:all": "npm run install:all --prefix threatlens"
+  }
+}

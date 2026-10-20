@@ -1,0 +1,143 @@
+╔══════════════════════════════════════════════════════════╗
+║        ThreatLens - Login Issue Quick Fix               ║
+╚══════════════════════════════════════════════════════════╝
+
+🚨 PROBLEM: "Login failed. Please try again."
+
+✅ QUICK FIX (Choose One):
+
+┌──────────────────────────────────────────────────────────┐
+│  Option 1: One-Click Fix (Easiest)                      │
+└──────────────────────────────────────────────────────────┘
+
+   cd threatlens
+   fix-login.bat
+
+   This will automatically:
+   • Start MongoDB
+   • Seed database
+   • Test login
+   • Tell you if it worked
+
+
+┌──────────────────────────────────────────────────────────┐
+│  Option 2: Manual Fix                                   │
+└──────────────────────────────────────────────────────────┘
+
+   Step 1: Start MongoDB (as Administrator)
+   ────────────────────────────────────────
+   net start MongoDB
+
+
+   Step 2: Seed Database
+   ────────────────────────────────────────
+   cd threatlens/server
+   npm run seed
+
+
+   Step 3: Start Servers
+   ────────────────────────────────────────
+   Terminal 1: cd threatlens/server && npm run dev
+   Terminal 2: cd threatlens/client && npm run dev
+
+
+   Step 4: Clear Browser Cache
+   ────────────────────────────────────────
+   Press F12 → Console → Type:
+   localStorage.clear()
+   location.reload()
+
+
+   Step 5: Login
+   ────────────────────────────────────────
+   Email:    arjun@student.college.edu
+   Password: User@123
+
+
+┌──────────────────────────────────────────────────────────┐
+│  Diagnostic Tools                                        │
+└──────────────────────────────────────────────────────────┘
+
+   Check System Health:
+   ───────────────────
+   node diagnose.js
+
+   Test Authentication:
+   ───────────────────
+   cd server
+   node test-auth.js
+
+
+┌──────────────────────────────────────────────────────────┐
+│  Demo Credentials                                        │
+└──────────────────────────────────────────────────────────┘
+
+   Regular User:
+   ────────────
+   Email:    arjun@student.college.edu
+   Password: User@123
+
+   Admin User:
+   ──────────
+   Email:    admin@threatlens.io
+   Password: Admin@123
+
+   ⚠️  Case-sensitive! Copy exactly as shown.
+
+
+┌──────────────────────────────────────────────────────────┐
+│  Still Not Working?                                      │
+└──────────────────────────────────────────────────────────┘
+
+   1. Check if MongoDB is installed:
+      mongod --version
+
+   2. If not installed, download:
+      https://www.mongodb.com/try/download/community
+
+   3. Read detailed guide:
+      TROUBLESHOOTING.md
+
+
+┌──────────────────────────────────────────────────────────┐
+│  Common Issues                                           │
+└──────────────────────────────────────────────────────────┘
+
+   ❌ MongoDB not installed
+   → Download from mongodb.com
+
+   ❌ MongoDB not running
+   → net start MongoDB (as Admin)
+
+   ❌ Database empty
+   → npm run seed (in server folder)
+
+   ❌ Wrong password
+   → Use exact: User@123 or Admin@123
+
+   ❌ Port 5000 in use
+   → Kill process or change PORT in .env
+
+
+┌──────────────────────────────────────────────────────────┐
+│  Documentation                                           │
+└──────────────────────────────────────────────────────────┘
+
+   README.md              - Project overview
+   SETUP_GUIDE.md         - Installation guide
+   TROUBLESHOOTING.md     - Detailed solutions
+   ISSUE_ANALYSIS_AND_FIXES.md - Technical analysis
+
+
+╔══════════════════════════════════════════════════════════╗
+║  Need More Help?                                         ║
+╚══════════════════════════════════════════════════════════╝
+
+  Run diagnostics and share output:
+  
+  1. node diagnose.js > diagnostic.txt
+  2. cd server && node test-auth.js > auth-test.txt
+  3. Share both files for analysis
+
+════════════════════════════════════════════════════════════
+

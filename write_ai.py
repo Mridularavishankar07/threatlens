@@ -1,0 +1,1 @@
+open(" x\,\w\).write(	est\)

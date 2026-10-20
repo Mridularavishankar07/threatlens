@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 2790" width="860" height="2790">
+  <style>
+    .header-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-weight: bold; font-size: 15px; fill: #cdd6f4; }
+    .header-sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #a6adc8; }
+    .tree-text { font-family: Consolas, "Cascadia Mono", Menlo, monospace; font-size: 14px; }
+    .line-num { fill: #6c7086; }
+    .branch { fill: #9399b2; }
+  </style>
+  <rect width="860" height="2790" rx="12" fill="#181825" stroke="#313244" stroke-width="2"/>
+  <path d="M 0 12 C 0 5.37 5.37 0 12 0 L 848 0 C 854.63 0 860 5.37 860 12 L 860 54 L 0 54 Z" fill="#11111b" />
+  <line x1="0" y1="54" x2="860" y2="54" stroke="#313244" stroke-width="1.5" />
+  <circle cx="26" cy="27" r="6" fill="#f38ba8" />
+  <circle cx="46" cy="27" r="6" fill="#f9e2af" />
+  <circle cx="66" cy="27" r="6" fill="#a6e3a1" />
+  <text x="95" y="32" class="header-title">ThreatLens Project — Folder Structure Tree</text>
+  <text x="650" y="32" class="header-sub">23 folders, 100 files</text>
+  <g transform="translate(0, 10)">
+    <text y="69" class="tree-text"><tspan x="30" class="line-num">  1</tspan><tspan x="80" class="branch"></tspan><tspan x="80" fill="#cba6f7" font-weight="bold">mridula/</tspan></text>
+    <text y="91" class="tree-text"><tspan x="30" class="line-num">  2</tspan><tspan x="80" class="branch">├── </tspan><tspan x="114" fill="#89b4fa" font-weight="bold">.vscode/</tspan></text>
+    <text y="113" class="tree-text"><tspan x="30" class="line-num">  3</tspan><tspan x="80" class="branch">│   ├── </tspan><tspan x="148" fill="#a6e3a1" font-weight="normal">launch.json</tspan></text>
+    <text y="135" class="tree-text"><tspan x="30" class="line-num">  4</tspan><tspan x="80" class="branch">│   └── </tspan><tspan x="148" fill="#a6e3a1" font-weight="normal">tasks.json</tspan></text>
+    <text y="157" class="tree-text"><tspan x="30" class="line-num">  5</tspan><tspan x="80" class="branch">├── </tspan><tspan x="114" fill="#89b4fa" font-weight="bold">fsd project/</tspan></text>
+    <text y="179" class="tree-text"><tspan x="30" class="line-num">  6</tspan><tspan x="80" class="branch">│   ├── </tspan><tspan x="148" fill="#89b4fa" font-weight="bold">.vscode/</tspan></text>
+    <text y="201" class="tree-text"><tspan x="30" class="line-num">  7</tspan><tspan x="80" class="branch">│   │   └── </tspan><tspan x="182" fill="#a6e3a1" font-weight="normal">settings.json</tspan></text>
+    <text y="223" class="tree-text"><tspan x="30" class="line-num">  8</tspan><tspan x="80" class="branch">│   ├── </tspan><tspan x="148" fill="#89b4fa" font-weight="bold">threatlens/</tspan></text>
+    <text y="245" class="tree-text"><tspan x="30" class="line-num">  9</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#89b4fa" font-weight="bold">.vscode/</tspan></text>
+    <text y="267" class="tree-text"><tspan x="30" class="line-num"> 10</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#a6e3a1" font-weight="normal">launch.json</tspan></text>
+    <text y="289" class="tree-text"><tspan x="30" class="line-num"> 11</tspan><tspan x="80" class="branch">│   │   │   └── </tspan><tspan x="216" fill="#a6e3a1" font-weight="normal">tasks.json</tspan></text>
+    <text y="311" class="tree-text"><tspan x="30" class="line-num"> 12</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#89b4fa" font-weight="bold">client/</tspan></text>
+    <text y="333" class="tree-text"><tspan x="30" class="line-num"> 13</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#89b4fa" font-weight="bold">src/</tspan></text>
+    <text y="355" class="tree-text"><tspan x="30" class="line-num"> 14</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#89b4fa" font-weight="bold">components/</tspan></text>
+    <text y="377" class="tree-text"><tspan x="30" class="line-num"> 15</tspan><tspan x="80" class="branch">│   │   │   │   │   ├── </tspan><tspan x="284" fill="#f9e2af" font-weight="normal">AdminRoute.jsx</tspan></text>
+    <text y="399" class="tree-text"><tspan x="30" class="line-num"> 16</tspan><tspan x="80" class="branch">│   │   │   │   │   ├── </tspan><tspan x="284" fill="#f9e2af" font-weight="normal">ErrorBoundary.jsx</tspan></text>
+    <text y="421" class="tree-text"><tspan x="30" class="line-num"> 17</tspan><tspan x="80" class="branch">│   │   │   │   │   └── </tspan><tspan x="284" fill="#f9e2af" font-weight="normal">ProtectedRoute.jsx</tspan></text>
+    <text y="443" class="tree-text"><tspan x="30" class="line-num"> 18</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#89b4fa" font-weight="bold">context/</tspan></text>
+    <text y="465" class="tree-text"><tspan x="30" class="line-num"> 19</tspan><tspan x="80" class="branch">│   │   │   │   │   ├── </tspan><tspan x="284" fill="#f9e2af" font-weight="normal">AuthContext.jsx</tspan></text>
+    <text y="487" class="tree-text"><tspan x="30" class="line-num"> 20</tspan><tspan x="80" class="branch">│   │   │   │   │   └── </tspan><tspan x="284" fill="#f9e2af" font-weight="normal">ToastContext.jsx</tspan></text>
+    <text y="509" class="tree-text"><tspan x="30" class="line-num"> 21</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#89b4fa" font-weight="bold">layouts/</tspan></text>
+    <text y="531" class="tree-text"><tspan x="30" class="line-num"> 22</tspan><tspan x="80" class="branch">│   │   │   │   │   ├── </tspan><tspan x="284" fill="#f9e2af" font-weight="normal">AdminLayout.jsx</tspan></text>
+    <text y="553" class="tree-text"><tspan x="30" class="line-num"> 23</tspan><tspan x="80" class="branch">│   │   │   │   │   ├── </tspan><tspan x="284" fill="#f9e2af" font-weight="normal">AppLayout.jsx</tspan></text>
+    <text y="575" class="tree-text"><tspan x="30" class="line-num"> 24</tspan><tspan x="80" class="branch">│   │   │   │   │   └── </tspan><tspan x="284" fill="#f9e2af" font-weight="normal">AuthLayout.jsx</tspan></text>
+    <text y="597" class="tree-text"><tspan x="30" class="line-num"> 25</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#89b4fa" font-weight="bold">pages/</tspan></text>
+    <text y="619" class="tree-text"><tspan x="30" class="line-num"> 26</tspan><tspan x="80" class="branch">│   │   │   │   │   ├── </tspan><tspan x="284" fill="#89b4fa" font-weight="bold">admin/</tspan></text>
+    <text y="641" class="tree-text"><tspan x="30" class="line-num"> 27</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">AdminAnalytics.jsx</tspan></text>
+    <text y="663" class="tree-text"><tspan x="30" class="line-num"> 28</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">AdminAuditLogs.jsx</tspan></text>
+    <text y="685" class="tree-text"><tspan x="30" class="line-num"> 29</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">AdminDashboard.jsx</tspan></text>
+    <text y="707" class="tree-text"><tspan x="30" class="line-num"> 30</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">AdminReports.jsx</tspan></text>
+    <text y="729" class="tree-text"><tspan x="30" class="line-num"> 31</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">AdminScans.jsx</tspan></text>
+    <text y="751" class="tree-text"><tspan x="30" class="line-num"> 32</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">AdminSettings.jsx</tspan></text>
+    <text y="773" class="tree-text"><tspan x="30" class="line-num"> 33</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">AdminSimulations.jsx</tspan></text>
+    <text y="795" class="tree-text"><tspan x="30" class="line-num"> 34</tspan><tspan x="80" class="branch">│   │   │   │   │   │   └── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">AdminUsers.jsx</tspan></text>
+    <text y="817" class="tree-text"><tspan x="30" class="line-num"> 35</tspan><tspan x="80" class="branch">│   │   │   │   │   ├── </tspan><tspan x="284" fill="#89b4fa" font-weight="bold">auth/</tspan></text>
+    <text y="839" class="tree-text"><tspan x="30" class="line-num"> 36</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">LoginPage.jsx</tspan></text>
+    <text y="861" class="tree-text"><tspan x="30" class="line-num"> 37</tspan><tspan x="80" class="branch">│   │   │   │   │   │   └── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">RegisterPage.jsx</tspan></text>
+    <text y="883" class="tree-text"><tspan x="30" class="line-num"> 38</tspan><tspan x="80" class="branch">│   │   │   │   │   ├── </tspan><tspan x="284" fill="#89b4fa" font-weight="bold">user/</tspan></text>
+    <text y="905" class="tree-text"><tspan x="30" class="line-num"> 39</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">Dashboard.jsx</tspan></text>
+    <text y="927" class="tree-text"><tspan x="30" class="line-num"> 40</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">EmailInbox.jsx</tspan></text>
+    <text y="949" class="tree-text"><tspan x="30" class="line-num"> 41</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">ProfilePage.jsx</tspan></text>
+    <text y="971" class="tree-text"><tspan x="30" class="line-num"> 42</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">ScanEmail.jsx</tspan></text>
+    <text y="993" class="tree-text"><tspan x="30" class="line-num"> 43</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">ScanHistory.jsx</tspan></text>
+    <text y="1015" class="tree-text"><tspan x="30" class="line-num"> 44</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">ScanResult.jsx</tspan></text>
+    <text y="1037" class="tree-text"><tspan x="30" class="line-num"> 45</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">SecurityScore.jsx</tspan></text>
+    <text y="1059" class="tree-text"><tspan x="30" class="line-num"> 46</tspan><tspan x="80" class="branch">│   │   │   │   │   │   ├── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">SimulationPage.jsx</tspan></text>
+    <text y="1081" class="tree-text"><tspan x="30" class="line-num"> 47</tspan><tspan x="80" class="branch">│   │   │   │   │   │   └── </tspan><tspan x="318" fill="#f9e2af" font-weight="normal">TrainingCenter.jsx</tspan></text>
+    <text y="1103" class="tree-text"><tspan x="30" class="line-num"> 48</tspan><tspan x="80" class="branch">│   │   │   │   │   └── </tspan><tspan x="284" fill="#f9e2af" font-weight="normal">LandingPage.jsx</tspan></text>
+    <text y="1125" class="tree-text"><tspan x="30" class="line-num"> 49</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#89b4fa" font-weight="bold">services/</tspan></text>
+    <text y="1147" class="tree-text"><tspan x="30" class="line-num"> 50</tspan><tspan x="80" class="branch">│   │   │   │   │   └── </tspan><tspan x="284" fill="#f9e2af" font-weight="normal">api.js</tspan></text>
+    <text y="1169" class="tree-text"><tspan x="30" class="line-num"> 51</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">App.jsx</tspan></text>
+    <text y="1191" class="tree-text"><tspan x="30" class="line-num"> 52</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#fab387" font-weight="normal">index.css</tspan></text>
+    <text y="1213" class="tree-text"><tspan x="30" class="line-num"> 53</tspan><tspan x="80" class="branch">│   │   │   │   └── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">main.jsx</tspan></text>
+    <text y="1235" class="tree-text"><tspan x="30" class="line-num"> 54</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#fab387" font-weight="normal">index.html</tspan></text>
+    <text y="1257" class="tree-text"><tspan x="30" class="line-num"> 55</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#a6e3a1" font-weight="normal">package-lock.json</tspan></text>
+    <text y="1279" class="tree-text"><tspan x="30" class="line-num"> 56</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#a6e3a1" font-weight="normal">package.json</tspan></text>
+    <text y="1301" class="tree-text"><tspan x="30" class="line-num"> 57</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#f9e2af" font-weight="normal">postcss.config.js</tspan></text>
+    <text y="1323" class="tree-text"><tspan x="30" class="line-num"> 58</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#f9e2af" font-weight="normal">tailwind.config.js</tspan></text>
+    <text y="1345" class="tree-text"><tspan x="30" class="line-num"> 59</tspan><tspan x="80" class="branch">│   │   │   └── </tspan><tspan x="216" fill="#f9e2af" font-weight="normal">vite.config.js</tspan></text>
+    <text y="1367" class="tree-text"><tspan x="30" class="line-num"> 60</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#89b4fa" font-weight="bold">server/</tspan></text>
+    <text y="1389" class="tree-text"><tspan x="30" class="line-num"> 61</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#89b4fa" font-weight="bold">controllers/</tspan></text>
+    <text y="1411" class="tree-text"><tspan x="30" class="line-num"> 62</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">adminController.js</tspan></text>
+    <text y="1433" class="tree-text"><tspan x="30" class="line-num"> 63</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">auditController.js</tspan></text>
+    <text y="1455" class="tree-text"><tspan x="30" class="line-num"> 64</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">authController.js</tspan></text>
+    <text y="1477" class="tree-text"><tspan x="30" class="line-num"> 65</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">blocklistController.js</tspan></text>
+    <text y="1499" class="tree-text"><tspan x="30" class="line-num"> 66</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">emailController.js</tspan></text>
+    <text y="1521" class="tree-text"><tspan x="30" class="line-num"> 67</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">policyController.js</tspan></text>
+    <text y="1543" class="tree-text"><tspan x="30" class="line-num"> 68</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">reportController.js</tspan></text>
+    <text y="1565" class="tree-text"><tspan x="30" class="line-num"> 69</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">scanController.js</tspan></text>
+    <text y="1587" class="tree-text"><tspan x="30" class="line-num"> 70</tspan><tspan x="80" class="branch">│   │   │   │   └── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">trainingController.js</tspan></text>
+    <text y="1609" class="tree-text"><tspan x="30" class="line-num"> 71</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#89b4fa" font-weight="bold">middleware/</tspan></text>
+    <text y="1631" class="tree-text"><tspan x="30" class="line-num"> 72</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">auth.js</tspan></text>
+    <text y="1653" class="tree-text"><tspan x="30" class="line-num"> 73</tspan><tspan x="80" class="branch">│   │   │   │   └── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">validate.js</tspan></text>
+    <text y="1675" class="tree-text"><tspan x="30" class="line-num"> 74</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#89b4fa" font-weight="bold">models/</tspan></text>
+    <text y="1697" class="tree-text"><tspan x="30" class="line-num"> 75</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">AuditLog.js</tspan></text>
+    <text y="1719" class="tree-text"><tspan x="30" class="line-num"> 76</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">BlocklistEntry.js</tspan></text>
+    <text y="1741" class="tree-text"><tspan x="30" class="line-num"> 77</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">Email.js</tspan></text>
+    <text y="1763" class="tree-text"><tspan x="30" class="line-num"> 78</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">Report.js</tspan></text>
+    <text y="1785" class="tree-text"><tspan x="30" class="line-num"> 79</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">Scan.js</tspan></text>
+    <text y="1807" class="tree-text"><tspan x="30" class="line-num"> 80</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">SecurityPolicy.js</tspan></text>
+    <text y="1829" class="tree-text"><tspan x="30" class="line-num"> 81</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">Simulation.js</tspan></text>
+    <text y="1851" class="tree-text"><tspan x="30" class="line-num"> 82</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">TrainingAttempt.js</tspan></text>
+    <text y="1873" class="tree-text"><tspan x="30" class="line-num"> 83</tspan><tspan x="80" class="branch">│   │   │   │   └── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">User.js</tspan></text>
+    <text y="1895" class="tree-text"><tspan x="30" class="line-num"> 84</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#89b4fa" font-weight="bold">routes/</tspan></text>
+    <text y="1917" class="tree-text"><tspan x="30" class="line-num"> 85</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">admin.js</tspan></text>
+    <text y="1939" class="tree-text"><tspan x="30" class="line-num"> 86</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">auth.js</tspan></text>
+    <text y="1961" class="tree-text"><tspan x="30" class="line-num"> 87</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">emails.js</tspan></text>
+    <text y="1983" class="tree-text"><tspan x="30" class="line-num"> 88</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">reports.js</tspan></text>
+    <text y="2005" class="tree-text"><tspan x="30" class="line-num"> 89</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">scans.js</tspan></text>
+    <text y="2027" class="tree-text"><tspan x="30" class="line-num"> 90</tspan><tspan x="80" class="branch">│   │   │   │   └── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">training.js</tspan></text>
+    <text y="2049" class="tree-text"><tspan x="30" class="line-num"> 91</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#89b4fa" font-weight="bold">services/</tspan></text>
+    <text y="2071" class="tree-text"><tspan x="30" class="line-num"> 92</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">aiService.js</tspan></text>
+    <text y="2093" class="tree-text"><tspan x="30" class="line-num"> 93</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">analysisEngine.js</tspan></text>
+    <text y="2115" class="tree-text"><tspan x="30" class="line-num"> 94</tspan><tspan x="80" class="branch">│   │   │   │   └── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">geminiService.js</tspan></text>
+    <text y="2137" class="tree-text"><tspan x="30" class="line-num"> 95</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#89b4fa" font-weight="bold">utils/</tspan></text>
+    <text y="2159" class="tree-text"><tspan x="30" class="line-num"> 96</tspan><tspan x="80" class="branch">│   │   │   │   ├── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">auditHelper.js</tspan></text>
+    <text y="2181" class="tree-text"><tspan x="30" class="line-num"> 97</tspan><tspan x="80" class="branch">│   │   │   │   └── </tspan><tspan x="250" fill="#f9e2af" font-weight="normal">seeder.js</tspan></text>
+    <text y="2203" class="tree-text"><tspan x="30" class="line-num"> 98</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#cdd6f4" font-weight="normal">.env</tspan></text>
+    <text y="2225" class="tree-text"><tspan x="30" class="line-num"> 99</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#a6e3a1" font-weight="normal">.env.example</tspan></text>
+    <text y="2247" class="tree-text"><tspan x="30" class="line-num">100</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#f9e2af" font-weight="normal">index.js</tspan></text>
+    <text y="2269" class="tree-text"><tspan x="30" class="line-num">101</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#a6e3a1" font-weight="normal">package-lock.json</tspan></text>
+    <text y="2291" class="tree-text"><tspan x="30" class="line-num">102</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#a6e3a1" font-weight="normal">package.json</tspan></text>
+    <text y="2313" class="tree-text"><tspan x="30" class="line-num">103</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#f9e2af" font-weight="normal">test-api-endpoint.js</tspan></text>
+    <text y="2335" class="tree-text"><tspan x="30" class="line-num">104</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#f9e2af" font-weight="normal">test-auth.js</tspan></text>
+    <text y="2357" class="tree-text"><tspan x="30" class="line-num">105</tspan><tspan x="80" class="branch">│   │   │   ├── </tspan><tspan x="216" fill="#f9e2af" font-weight="normal">test-detection-engine.js</tspan></text>
+    <text y="2379" class="tree-text"><tspan x="30" class="line-num">106</tspan><tspan x="80" class="branch">│   │   │   └── </tspan><tspan x="216" fill="#f9e2af" font-weight="normal">test-e2e-api.js</tspan></text>
+    <text y="2401" class="tree-text"><tspan x="30" class="line-num">107</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#f9e2af" font-weight="normal">diagnose.js</tspan></text>
+    <text y="2423" class="tree-text"><tspan x="30" class="line-num">108</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#f38ba8" font-weight="normal">fix-login.bat</tspan></text>
+    <text y="2445" class="tree-text"><tspan x="30" class="line-num">109</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#f5c2e7" font-weight="normal">ISSUE_ANALYSIS_AND_FIXES.md</tspan></text>
+    <text y="2467" class="tree-text"><tspan x="30" class="line-num">110</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#f5c2e7" font-weight="normal">LOGIN_FLOW_DIAGRAM.md</tspan></text>
+    <text y="2489" class="tree-text"><tspan x="30" class="line-num">111</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#a6e3a1" font-weight="normal">package-lock.json</tspan></text>
+    <text y="2511" class="tree-text"><tspan x="30" class="line-num">112</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#a6e3a1" font-weight="normal">package.json</tspan></text>
+    <text y="2533" class="tree-text"><tspan x="30" class="line-num">113</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#f5c2e7" font-weight="normal">QUICK_FIX.txt</tspan></text>
+    <text y="2555" class="tree-text"><tspan x="30" class="line-num">114</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#f5c2e7" font-weight="normal">README.md</tspan></text>
+    <text y="2577" class="tree-text"><tspan x="30" class="line-num">115</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#f5c2e7" font-weight="normal">SETUP_GUIDE.md</tspan></text>
+    <text y="2599" class="tree-text"><tspan x="30" class="line-num">116</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#f5c2e7" font-weight="normal">SOLUTION_SUMMARY.md</tspan></text>
+    <text y="2621" class="tree-text"><tspan x="30" class="line-num">117</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#f38ba8" font-weight="normal">start-with-checks.bat</tspan></text>
+    <text y="2643" class="tree-text"><tspan x="30" class="line-num">118</tspan><tspan x="80" class="branch">│   │   ├── </tspan><tspan x="182" fill="#f38ba8" font-weight="normal">start.bat</tspan></text>
+    <text y="2665" class="tree-text"><tspan x="30" class="line-num">119</tspan><tspan x="80" class="branch">│   │   └── </tspan><tspan x="182" fill="#f5c2e7" font-weight="normal">TROUBLESHOOTING.md</tspan></text>
+    <text y="2687" class="tree-text"><tspan x="30" class="line-num">120</tspan><tspan x="80" class="branch">│   └── </tspan><tspan x="148" fill="#a6e3a1" font-weight="normal">package.json</tspan></text>
+    <text y="2709" class="tree-text"><tspan x="30" class="line-num">121</tspan><tspan x="80" class="branch">├── </tspan><tspan x="114" fill="#a6e3a1" font-weight="normal">package.json</tspan></text>
+    <text y="2731" class="tree-text"><tspan x="30" class="line-num">122</tspan><tspan x="80" class="branch">├── </tspan><tspan x="114" fill="#74c7ec" font-weight="normal">write_ai.py</tspan></text>
+    <text y="2753" class="tree-text"><tspan x="30" class="line-num">123</tspan><tspan x="80" class="branch">└── </tspan><tspan x="114" fill="#74c7ec" font-weight="normal">write_ai_service.py</tspan></text>
+  </g>
+</svg>
